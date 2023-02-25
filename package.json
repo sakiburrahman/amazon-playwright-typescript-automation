@@ -1,0 +1,25 @@
+{
+  "name": "amazon-playwright-typescript-automation",
+  "version": "1.0.0",
+  "description": "Test Automation Amazon website using Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakiburrahman/amazon-playwright-typescript-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakiburrahman/amazon-playwright-typescript-automation/issues"
+  },
+  "homepage": "https://github.com/sakiburrahman/amazon-playwright-typescript-automation#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.31.1",
+    "cucumber-html-reporter": "^5.5.0",
+    "prettier": "^2.8.4"
+  }
+}
