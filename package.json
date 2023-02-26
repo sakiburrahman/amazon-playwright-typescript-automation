@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Test Automation Amazon website using Playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sakiburrahman/amazon-playwright-typescript-automation.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright test runner"
+  ],
+  "author": "Md. Sakibur Rahman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sakiburrahman/amazon-playwright-typescript-automation/issues"
@@ -19,6 +23,7 @@
     "@cucumber/cucumber": "^8.11.1",
     "@cucumber/pretty-formatter": "^1.0.0",
     "@playwright/test": "^1.31.1",
+    "allure-playwright": "^2.0.0",
     "cucumber-html-reporter": "^5.5.0",
     "prettier": "^2.8.4"
   }
