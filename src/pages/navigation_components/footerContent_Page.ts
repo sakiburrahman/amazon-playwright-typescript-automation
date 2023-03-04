@@ -37,9 +37,11 @@ export class footerContentPage{
         this.page = page;
         this.myAccount_TXT = page.locator('.footerLinks__footerLinksWrapper__e0a2af91 > div:nth-of-type(1) > .body-small_-Ylaw', { hasText: 'MY ACCOUNT' });
         this.orderseturns_LK = page.locator('[data-tid="FOOT:MA:MO"] > .body-small_-Ylaw', { hasText: 'Orders & Returns' });
-        
-  
-    
+        this.emailPreferences_LK = page.locator('[data-tid="FOOT:MA:EMAILPREF"] > .body-small_-Ylaw', { hasText: 'Email Preferences' });
+        this.accountSettings_LK = page.locator('[data-tid="FOOT:MA:AS"] > .body-small_-Ylaw', { hasText: 'Account Settings' });
+        this.letUsHelp_TXT = page.locator('.footerLinks__footerLinksWrapper__e0a2af91 > div:nth-of-type(2) > .body-small_-Ylaw', { hasText: 'LET US HELP' });
+        this.contactCustomerCare_LK = page.locator('[href="//help.overstock.com/help/s/article/International-Customer-Care"] > .body-small_-Ylaw', { hasText: 'Contact Customer Care' });
+        this.shippingInformation_LK = page.locator('xpath=//span[.="Shipping Information"]', { hasText: 'Shipping Information' });
       }
 
 
